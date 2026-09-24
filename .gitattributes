@@ -1,0 +1,3 @@
+*.joblib binary
+*.pickle binary
+*.pkl binary

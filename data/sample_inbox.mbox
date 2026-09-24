@@ -1,0 +1,158 @@
+From MAILER-DAEMON Thu Sep 24 09:54:31 2026
+From: Priya Nair <priya.nair@northwind.example>
+To: team@northwind.example
+Subject: Design review Thursday
+Date: Fri, 18 Sep 2026 14:00:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi team,
+
+Can we keep Thursday at 15:00 for the API design review? I will bring the ope=
+n questions from last week's sync. The notes are already on the shared drive,=
+ so there is nothing to install and no password to send.
+
+Thanks,
+Priya
+
+From MAILER-DAEMON Thu Sep 24 09:54:31 2026
+From: Security Queue <security@northwind.example>
+To: all-staff@northwind.example
+Subject: How to report a suspicious message
+Date: Mon, 21 Sep 2026 15:10:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello everyone,
+
+This month's drill used fake package holds and fake password expirations. A r=
+eal IT note will not ask you to type a password into a page that arrived by e=
+mail. Forward the sample to the security queue and delete it. Do not click li=
+nks inside a reported lure. This message is a recap only.
+
+Thank you,
+Security
+
+From MAILER-DAEMON Thu Sep 24 09:54:31 2026
+From: Marcus Adler <marcus.adler@northwind.example>
+To: platform@northwind.example
+Subject: Parser change ready for review
+Date: Tue, 22 Sep 2026 16:05:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi Jonah,
+
+I pushed a small change to the mailbox parser. Empty files no longer throw, a=
+nd the public function names stayed the same. Two tests cover the missing-fil=
+e path. Please leave comments by Thursday. No new dependency.
+
+Thanks,
+Marcus
+
+From MAILER-DAEMON Thu Sep 24 09:54:31 2026
+From: IT Operations <it-ops@northwind.example>
+To: lab-users@northwind.example
+Subject: Lab VPN passwords rotate Friday
+Date: Wed, 23 Sep 2026 13:30:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi lab users,
+
+VPN passwords rotate Friday at 18:00 UTC. You will set the new password yours=
+elf on the portal already bookmarked on your laptop. We will not email a rese=
+t link. If someone asks you to confirm the current password, forward that mes=
+sage to security. We will never ask for your password.
+
+IT Operations
+
+From MAILER-DAEMON Thu Sep 24 09:54:31 2026
+From: Account Services <alerts@mailbox-verify-login.example>
+To: priya.nair@northwind.example
+Subject: Mailbox locks in 2 hours
+Date: Wed, 23 Sep 2026 18:02:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear customer,
+
+We detected a sign-in from an unrecognized device. Verify your password now o=
+r the account will be suspended.
+
+http://mailbox-verify-login.example/secure
+
+This link expires in 2 hours. Failure to confirm will limit outgoing mail.
+
+Account Security Team
+
+From MAILER-DAEMON Thu Sep 24 09:54:31 2026
+From: Prize Desk <claim@secure-login-update.example>
+To: elena.berg@lumen.example
+Subject: You won 7500 USD in the Austin draw
+Date: Thu, 17 Sep 2026 11:22:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear winner Elena,
+
+A cash award of 7500 USD is waiting under ticket INC44021. Taxes and a releas=
+e fee must clear before the wire. Claim the funds and enter your date of birt=
+h at http://secure-login-update.example/verify
+
+Unclaimed prizes return to the pool after 12 hours.
+
+From MAILER-DAEMON Thu Sep 24 09:54:32 2026
+From: Collections <billing@invoice-remit-portal.example>
+To: ap@northwind.example
+Subject: Invoice INC90210 is past due
+Date: Thu, 17 Sep 2026 08:14:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4652686901965971521=="
+
+--===============4652686901965971521==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Accounts payable,
+
+Vendor bill 4800 USD is past due. A late fee starts in 6 hours. Open the remi=
+ttance workbook and enable editing to see the new account number.
+
+Pay immediately at http://invoice-remit-portal.example/update
+
+Collections
+
+--===============4652686901965971521==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_copy.docm"
+MIME-Version: 1.0
+
+c3ludGhldGljIGF0dGFjaG1lbnQgcGxhY2Vob2xkZXIK
+
+--===============4652686901965971521==--
+
+From MAILER-DAEMON Thu Sep 24 09:54:32 2026
+From: DHL Tracking <notice@dhl-hold-release.example>
+To: ruth.abebe@northwind.example
+Subject: Package held in Chicago
+Date: Fri, 18 Sep 2026 09:41:00 +0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello Ruth,
+
+A parcel is waiting at the Chicago depot. The label is missing a duty of 48 U=
+SD. The box returns to the sender after 24 hours. Release the package and con=
+firm your password at http://dhl-hold-release.example/login
+
+DHL Tracking
+
