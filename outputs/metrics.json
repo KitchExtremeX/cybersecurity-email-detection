@@ -1,0 +1,114 @@
+{
+  "task": "spam_vs_ham",
+  "positive_label": "spam",
+  "selection_metric": "f1_spam",
+  "tie_break": [
+    "f1_macro",
+    "accuracy",
+    "model_name_alphabetical"
+  ],
+  "best_model": "svm",
+  "runner_up": "logistic_regression",
+  "f1_margin": 0.003035,
+  "trained_at": "2026-09-24T09:54:33+00:00",
+  "seed": 42,
+  "test_size": 0.25,
+  "split": {
+    "strategy": "category_holdout",
+    "test_size": 0.25,
+    "seed": 42,
+    "test_categories": [
+      "bec_wire",
+      "code_review",
+      "fake_invoice",
+      "meeting",
+      "personal",
+      "prize_lottery"
+    ],
+    "note": "Whole categories are held out, with about test_size of the categories for each label reserved for testing. A category never appears in both train and test."
+  },
+  "artifact_fit": "full_corpus_after_selection",
+  "n_rows": 1600,
+  "n_train": 1200,
+  "n_test": 400,
+  "label_counts": {
+    "ham": 800,
+    "spam": 800
+  },
+  "vocabulary_size": 5791,
+  "evaluation_vocabulary_size": 4620,
+  "preprocessing": "lowercase; HTML stripped; URLs replaced with 'url' plus host words; email addresses replaced with 'emailaddr'; digits replaced with 'num'",
+  "vectorizer": {
+    "type": "tfidf",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true
+  },
+  "models": [
+    {
+      "model": "svm",
+      "accuracy": 0.95,
+      "precision_spam": 0.994536,
+      "recall_spam": 0.905473,
+      "f1_spam": 0.947917,
+      "precision_macro": 0.953489,
+      "recall_macro": 0.950224,
+      "f1_macro": 0.94992,
+      "ham_predicted_ham": 198,
+      "ham_predicted_spam": 1,
+      "spam_predicted_ham": 19,
+      "spam_predicted_spam": 182
+    },
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.9475,
+      "precision_spam": 1.0,
+      "recall_spam": 0.895522,
+      "f1_spam": 0.944882,
+      "precision_macro": 0.952273,
+      "recall_macro": 0.947761,
+      "f1_macro": 0.947381,
+      "ham_predicted_ham": 199,
+      "ham_predicted_spam": 0,
+      "spam_predicted_ham": 21,
+      "spam_predicted_spam": 180
+    },
+    {
+      "model": "decision_tree",
+      "accuracy": 0.8875,
+      "precision_spam": 0.910526,
+      "recall_spam": 0.860697,
+      "f1_spam": 0.88491,
+      "precision_macro": 0.888596,
+      "recall_macro": 0.887635,
+      "f1_macro": 0.887443,
+      "ham_predicted_ham": 182,
+      "ham_predicted_spam": 17,
+      "spam_predicted_ham": 28,
+      "spam_predicted_spam": 173
+    },
+    {
+      "model": "random_forest",
+      "accuracy": 0.915,
+      "precision_spam": 0.994083,
+      "recall_spam": 0.835821,
+      "f1_spam": 0.908108,
+      "precision_macro": 0.925613,
+      "recall_macro": 0.915398,
+      "f1_macro": 0.914519,
+      "ham_predicted_ham": 198,
+      "ham_predicted_spam": 1,
+      "spam_predicted_ham": 33,
+      "spam_predicted_spam": 168
+    }
+  ],
+  "artifacts": {
+    "model": "model.joblib",
+    "vectorizer": "vectorizer.joblib",
+    "metrics": "metrics.json"
+  }
+}

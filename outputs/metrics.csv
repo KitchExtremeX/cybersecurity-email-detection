@@ -1,0 +1,5 @@
+model,accuracy,precision_spam,recall_spam,f1_spam,precision_macro,recall_macro,f1_macro,ham_predicted_ham,ham_predicted_spam,spam_predicted_ham,spam_predicted_spam
+svm,0.95,0.994536,0.905473,0.947917,0.953489,0.950224,0.94992,198,1,19,182
+logistic_regression,0.9475,1.0,0.895522,0.944882,0.952273,0.947761,0.947381,199,0,21,180
+decision_tree,0.8875,0.910526,0.860697,0.88491,0.888596,0.887635,0.887443,182,17,28,173
+random_forest,0.915,0.994083,0.835821,0.908108,0.925613,0.915398,0.914519,198,1,33,168
